@@ -6,7 +6,7 @@ import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/v3.4.0/contr
 import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/v3.4.0/contracts/access/Ownable.sol";
 
 // Chitin Token Contract
-contract Chitin is ERC20("Chitin2", "CHI2"), Ownable {
+contract Chitin is ERC20("Chitin3", "CHI3"), Ownable {
     uint256 private constant CAP = 256000000e18; // 256 million CHIT
     uint256 private _totalLock;
 
