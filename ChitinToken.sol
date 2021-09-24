@@ -10,6 +10,7 @@ contract ChitinToken is ERC20("Chitin3", "CHI3"), Ownable {
     uint256 private constant CAP = 256000000e18; // 256 million CHIT
     uint256 private _totalLock;
 
+    //these guys define when the locked rewards begin unlocking and end unlocking
     uint256 public startReleaseBlock;
     uint256 public endReleaseBlock;
 
